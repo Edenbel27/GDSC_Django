@@ -1,11 +1,15 @@
 def basic_operations(a, b):
-  
   results = []
-  results["addition"] = a + b
-  results["subtraction"] = a - b
-  results["multiplication"] = a * b
-  results["division"] = a / b
-  return results
+  addition= a + b
+  subtraction = a - b
+  multiplication = a * b
+  division = a / b
+  results.append(addition)
+  results.append(subtraction)
+  results.append(multiplication)
+  results.append(division)
+  for i in results:
+      print(i)
 
 
 def power_operation(base, exponent, **kwargs):

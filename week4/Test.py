@@ -1,8 +1,8 @@
 from math_operations import basic_operations, power_operation, apply_operations
 
   # Test basic_operations
-result_basic = basic_operations(10, 5)
-print("Basic Operations Result:", result_basic)
+basic_operations(10, 5 )
+
 
   # Test power_operation
 result_power = power_operation(2, 3)
