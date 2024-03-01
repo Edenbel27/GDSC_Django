@@ -5,4 +5,3 @@ else:
   print(f'{word} is not pallindrome because {word} is not equal with {word[::-1]} ')
 
 
-
